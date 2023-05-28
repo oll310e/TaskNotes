@@ -1,0 +1,6 @@
+.app__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0 1 0;
+}

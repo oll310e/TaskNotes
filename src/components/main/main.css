@@ -1,0 +1,24 @@
+.main__container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.main__container-taskmenu {
+  border: 2px solid blue;
+  padding: 1rem 2rem;
+  border-radius: 14px 2px 14px 2px;
+  height: 2rem;
+}
+
+#addTaskButton {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  background: var(--color-bg);
+  cursor: pointer;
+  -webkit-box-shadow: 2px 3px 4px #000000;
+  -moz-box-shadow: 2px 3px 4px #000000;
+  box-shadow: 2px 3px 4px #000000;
+  height: 2rem;
+}

@@ -1,0 +1,19 @@
+.footer__container {
+  background-color: var(--color-bg);
+  flex-grow: 0;
+}
+
+.footer__container-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.footer__container-list li {
+  padding: 20px;
+}
+
+.footer__container-list li a {
+  color: var(--color-text);
+  text-decoration: none;
+}
